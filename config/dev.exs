@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :x_bank, XBank.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "docker",
   hostname: "localhost",
   database: "x_bank_dev",
   stacktrace: true,
