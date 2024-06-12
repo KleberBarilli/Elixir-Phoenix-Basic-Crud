@@ -7,6 +7,8 @@ defmodule XBankWeb.Router do
 
   scope "/api", XBankWeb do
     pipe_through :api
+
+    get "/", WelcomeController, :index
   end
 
   # Enable LiveDashboard in development
